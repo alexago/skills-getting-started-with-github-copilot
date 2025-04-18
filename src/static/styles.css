@@ -77,8 +77,9 @@ section h3 {
 /* Enhance participant list styling */
 .activity-card ul {
   margin-top: 10px;
-  padding-left: 20px;
+  padding-left: 0; /* Remove extra padding */
   list-style-type: disc;
+  list-style-position: inside; /* Ensure bullets are inside the list area */
   color: #333; /* Darker color for better readability */
   background-color: #f1f1f1; /* Light background for contrast */
   border: 1px solid #ddd; /* Border for separation */
@@ -127,7 +128,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
